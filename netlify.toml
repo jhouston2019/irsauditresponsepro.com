@@ -5,20 +5,379 @@
 [build.environment]
   NODE_VERSION = "18"
 
-# --- Clean URLs + API proxy (must be before SPA fallback) ---
+# --- Primary domain + legacy hosts ---
 [[redirects]]
-  from = "/success"
-  to = "/audit-defense.html"
+  from = "https://www.irsauditdefensepro.com/*"
+  to = "https://irsauditdefensepro.com/:splat"
   status = 301
+  force = true
 
 [[redirects]]
-  from = "/register"
-  to = "/register.html"
+  from = "https://irsauditdefensepro.netlify.app/*"
+  to = "https://irsauditdefensepro.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://irsauditresponseai.netlify.app/*"
+  to = "https://irsauditdefensepro.com/:splat"
+  status = 301
+  force = true
+
+# --- Legacy slug consolidations ---
+[[redirects]]
+  from = "/success"
+  to = "/audit-defense"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resource"
+  to = "/audit-defense"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/upload"
+  to = "/audit-defense"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/payment"
+  to = "/pricing"
+  status = 301
+  force = true
+
+# --- .html → pretty URL (301) and pretty → file (200) ---
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/payment.html"
+  to = "/pricing"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/audit-payment.html"
+  to = "/pricing"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/upload.html"
+  to = "/audit-defense"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resource.html"
+  to = "/audit-defense"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/admin-dashboard.html"
+  to = "/admin-dashboard"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/admin.html"
+  to = "/admin"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/audit-cancel.html"
+  to = "/audit-cancel"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/audit-success.html"
+  to = "/audit-success"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cancel.html"
+  to = "/cancel"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/correspondence-audit.html"
+  to = "/correspondence-audit"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/dashboard.html"
+  to = "/dashboard"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/disclaimer.html"
+  to = "/disclaimer"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/examples.html"
+  to = "/examples"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/how-to-respond-to-irs-audit.html"
+  to = "/how-to-respond-to-irs-audit"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-audit-additional-information-requested.html"
+  to = "/irs-audit-additional-information-requested"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-audit-adjustment-dispute.html"
+  to = "/irs-audit-adjustment-dispute"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-audit-appeal-response.html"
+  to = "/irs-audit-appeal-response"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-audit-certified-mail-response.html"
+  to = "/irs-audit-certified-mail-response"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-audit-deadline-missed.html"
+  to = "/irs-audit-deadline-missed"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-audit-document-request.html"
+  to = "/irs-audit-document-request"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-audit-explanation-letter.html"
+  to = "/irs-audit-explanation-letter"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-audit-help.html"
+  to = "/irs-audit-help"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-audit-letter-what-to-do.html"
+  to = "/irs-audit-letter-what-to-do"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-audit-letter.html"
+  to = "/irs-audit-letter"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-audit-notice-confusing.html"
+  to = "/irs-audit-notice-confusing"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-audit-penalties-help.html"
+  to = "/irs-audit-penalties-help"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-audit-response-help.html"
+  to = "/irs-audit-response-help"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-audit-supporting-documents.html"
+  to = "/irs-audit-supporting-documents"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-audit-written-response.html"
+  to = "/irs-audit-written-response"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-correspondence-audit-response.html"
+  to = "/irs-correspondence-audit-response"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-cp2000-audit-response.html"
+  to = "/irs-cp2000-audit-response"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-examination-notice.html"
+  to = "/irs-examination-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-field-audit-response.html"
+  to = "/irs-field-audit-response"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-office-audit-response.html"
+  to = "/irs-office-audit-response"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-office-field-audit.html"
+  to = "/irs-office-field-audit"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-random-audit-response.html"
+  to = "/irs-random-audit-response"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/login.html"
+  to = "/login"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pricing.html"
+  to = "/pricing"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/privacy.html"
+  to = "/privacy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources.html"
+  to = "/resources"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/signup.html"
+  to = "/signup"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/terms.html"
+  to = "/terms"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/test-payment-flow.html"
+  to = "/test-payment-flow"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/thank-you.html"
+  to = "/thank-you"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/audit-defense.html"
+  to = "/audit-defense"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/app.html"
+  to = "/app"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/recover.html"
+  to = "/recover"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/register.html"
+  to = "/register"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/404.html"
+  to = "/404"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/admin-dashboard"
+  to = "/admin-dashboard.html"
   status = 200
 
 [[redirects]]
-  from = "/login"
-  to = "/login.html"
+  from = "/admin"
+  to = "/admin.html"
+  status = 200
+
+[[redirects]]
+  from = "/audit-cancel"
+  to = "/audit-cancel.html"
+  status = 200
+
+[[redirects]]
+  from = "/audit-success"
+  to = "/audit-success.html"
+  status = 200
+
+[[redirects]]
+  from = "/cancel"
+  to = "/cancel.html"
+  status = 200
+
+[[redirects]]
+  from = "/correspondence-audit"
+  to = "/correspondence-audit.html"
   status = 200
 
 [[redirects]]
@@ -27,8 +386,173 @@
   status = 200
 
 [[redirects]]
+  from = "/disclaimer"
+  to = "/disclaimer.html"
+  status = 200
+
+[[redirects]]
+  from = "/examples"
+  to = "/examples.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-respond-to-irs-audit"
+  to = "/how-to-respond-to-irs-audit.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-audit-additional-information-requested"
+  to = "/irs-audit-additional-information-requested.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-audit-adjustment-dispute"
+  to = "/irs-audit-adjustment-dispute.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-audit-appeal-response"
+  to = "/irs-audit-appeal-response.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-audit-certified-mail-response"
+  to = "/irs-audit-certified-mail-response.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-audit-deadline-missed"
+  to = "/irs-audit-deadline-missed.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-audit-document-request"
+  to = "/irs-audit-document-request.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-audit-explanation-letter"
+  to = "/irs-audit-explanation-letter.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-audit-help"
+  to = "/irs-audit-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-audit-letter-what-to-do"
+  to = "/irs-audit-letter-what-to-do.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-audit-letter"
+  to = "/irs-audit-letter.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-audit-notice-confusing"
+  to = "/irs-audit-notice-confusing.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-audit-penalties-help"
+  to = "/irs-audit-penalties-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-audit-response-help"
+  to = "/irs-audit-response-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-audit-supporting-documents"
+  to = "/irs-audit-supporting-documents.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-audit-written-response"
+  to = "/irs-audit-written-response.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-correspondence-audit-response"
+  to = "/irs-correspondence-audit-response.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-cp2000-audit-response"
+  to = "/irs-cp2000-audit-response.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-examination-notice"
+  to = "/irs-examination-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-field-audit-response"
+  to = "/irs-field-audit-response.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-office-audit-response"
+  to = "/irs-office-audit-response.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-office-field-audit"
+  to = "/irs-office-field-audit.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-random-audit-response"
+  to = "/irs-random-audit-response.html"
+  status = 200
+
+[[redirects]]
+  from = "/login"
+  to = "/login.html"
+  status = 200
+
+[[redirects]]
   from = "/pricing"
   to = "/pricing.html"
+  status = 200
+
+[[redirects]]
+  from = "/privacy"
+  to = "/privacy.html"
+  status = 200
+
+[[redirects]]
+  from = "/resources"
+  to = "/resources.html"
+  status = 200
+
+[[redirects]]
+  from = "/signup"
+  to = "/signup.html"
+  status = 200
+
+[[redirects]]
+  from = "/terms"
+  to = "/terms.html"
+  status = 200
+
+[[redirects]]
+  from = "/test-payment-flow"
+  to = "/test-payment-flow.html"
+  status = 200
+
+[[redirects]]
+  from = "/thank-you"
+  to = "/thank-you.html"
+  status = 200
+
+[[redirects]]
+  from = "/audit-defense"
+  to = "/audit-defense.html"
   status = 200
 
 [[redirects]]
@@ -42,54 +566,25 @@
   status = 200
 
 [[redirects]]
-  from = "/cancel"
-  to = "/cancel.html"
+  from = "/register"
+  to = "/register.html"
   status = 200
 
-# Single checkout UX (Tax Letter Defense + IRS Audit Defense)
 [[redirects]]
-  from = "/payment.html"
-  to = "/pricing"
-  status = 301
+  from = "/404"
+  to = "/404.html"
+  status = 200
 
-[[redirects]]
-  from = "/payment"
-  to = "/pricing"
-  status = 301
-
-[[redirects]]
-  from = "/audit-payment.html"
-  to = "/pricing"
-  status = 301
-
-[[redirects]]
-  from = "/resource"
-  to = "/audit-defense.html"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/upload"
-  to = "/audit-defense.html"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/api/send-receipt"
   to = "/.netlify/functions/send-receipt"
   status = 200
 
-# ✅ SPA fallback (static files still win over this when present on disk)
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
 [functions]
   directory = "netlify/functions"
   node_bundler = "nft"
 
-# ✅ Global security headers
 [[headers]]
   for = "/*"
   [headers.values]
@@ -100,14 +595,12 @@
     Strict-Transport-Security = "max-age=31536000; includeSubDomains"
     Cache-Control = "public, max-age=0, must-revalidate"
 
-# Function responses set CORS via _wizardAuth (SITE_URL); do not force wildcard here
 [[headers]]
   for = "/.netlify/functions/*"
   [headers.values]
     Access-Control-Allow-Headers = "Content-Type, Authorization, X-Service-Key, X-Stripe-Session"
     Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
 
-# ✅ Long-term caching for assets
 [[headers]]
   for = "/assets/*"
   [headers.values]
@@ -123,14 +616,12 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
-# ✅ Force correct MIME type for sitemap.xml
 [[headers]]
   for = "/sitemap.xml"
   [headers.values]
     Content-Type = "application/xml; charset=UTF-8"
     Cache-Control = "public, max-age=0, must-revalidate"
 
-# ✅ Correct MIME type for robots.txt
 [[headers]]
   for = "/robots.txt"
   [headers.values]

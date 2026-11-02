@@ -4,7 +4,7 @@
 const { createClient } = require("@supabase/supabase-js");
 
 function getAllowedOrigins() {
-  const site = (process.env.SITE_URL || "https://irsauditresponseai.netlify.app").replace(/\/$/, "");
+  const site = (process.env.SITE_URL || "https://irsauditdefensepro.com").replace(/\/$/, "");
   const extras = (process.env.CORS_EXTRA_ORIGINS || "")
     .split(",")
     .map((s) => s.trim().replace(/\/$/, ""))
@@ -22,7 +22,7 @@ function getAllowedOrigins() {
 function corsHeaders(event, extra = {}) {
   const origin = event.headers.origin || event.headers.Origin || "";
   const allowed = getAllowedOrigins();
-  const site = (process.env.SITE_URL || "https://irsauditresponseai.netlify.app").replace(/\/$/, "");
+  const site = (process.env.SITE_URL || "https://irsauditdefensepro.com").replace(/\/$/, "");
   const allowOrigin = origin && allowed.has(origin) ? origin : site;
   return {
     "Access-Control-Allow-Origin": allowOrigin,
