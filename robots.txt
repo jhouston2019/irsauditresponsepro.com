@@ -60,4 +60,83 @@ Disallow: /supabase/
 Disallow: /*.md$
 Disallow: /*.sql$
 
+User-agent: GPTBot
+Allow: /
+Disallow: /checkout
+Disallow: /success
+Disallow: /.netlify/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /checkout
+Disallow: /success
+Disallow: /.netlify/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /checkout
+Disallow: /success
+Disallow: /.netlify/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /checkout
+Disallow: /success
+Disallow: /.netlify/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /checkout
+Disallow: /success
+Disallow: /.netlify/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /checkout
+Disallow: /success
+Disallow: /.netlify/
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /checkout
+Disallow: /success
+Disallow: /.netlify/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /checkout
+Disallow: /success
+Disallow: /.netlify/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /checkout
+Disallow: /success
+Disallow: /.netlify/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /checkout
+Disallow: /success
+Disallow: /.netlify/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /checkout
+Disallow: /success
+Disallow: /.netlify/
+
+User-agent: CCBot
+Allow: /
+Disallow: /checkout
+Disallow: /success
+Disallow: /.netlify/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /checkout
+Disallow: /success
+Disallow: /.netlify/
+
 Sitemap: https://irsauditdefensepro.com/sitemap.xml
+Sitemap: https://irsauditdefensepro.com/sitemap-seo.xml

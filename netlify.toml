@@ -626,3 +626,698 @@
   for = "/robots.txt"
   [headers.values]
     Content-Type = "text/plain; charset=UTF-8"
+
+# SEO guide pages
+
+[[redirects]]
+  from = "/guides.html"
+  to = "/guides"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/guides"
+  to = "/guides.html"
+  status = 200
+
+[[redirects]]
+  from = "/cp2000-notice.html"
+  to = "/cp2000-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cp2000-notice"
+  to = "/cp2000-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/cp3219a-notice-of-deficiency.html"
+  to = "/cp3219a-notice-of-deficiency"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cp3219a-notice-of-deficiency"
+  to = "/cp3219a-notice-of-deficiency.html"
+  status = 200
+
+[[redirects]]
+  from = "/cp11-notice.html"
+  to = "/cp11-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cp11-notice"
+  to = "/cp11-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/cp12-notice.html"
+  to = "/cp12-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cp12-notice"
+  to = "/cp12-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/cp05-notice.html"
+  to = "/cp05-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cp05-notice"
+  to = "/cp05-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/cp75-cp75a-notice.html"
+  to = "/cp75-cp75a-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cp75-cp75a-notice"
+  to = "/cp75-cp75a-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/cp87a-notice.html"
+  to = "/cp87a-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cp87a-notice"
+  to = "/cp87a-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/cp90-cp297-notice.html"
+  to = "/cp90-cp297-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cp90-cp297-notice"
+  to = "/cp90-cp297-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/lt11-letter-1058-notice.html"
+  to = "/lt11-letter-1058-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/lt11-letter-1058-notice"
+  to = "/lt11-letter-1058-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/letter-525-letter-950-30-day-letter.html"
+  to = "/letter-525-letter-950-30-day-letter"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/letter-525-letter-950-30-day-letter"
+  to = "/letter-525-letter-950-30-day-letter.html"
+  status = 200
+
+[[redirects]]
+  from = "/cp14-notice.html"
+  to = "/cp14-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cp14-notice"
+  to = "/cp14-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/cp504-notice.html"
+  to = "/cp504-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cp504-notice"
+  to = "/cp504-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/cp5071-notice.html"
+  to = "/cp5071-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cp5071-notice"
+  to = "/cp5071-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/cp2100-notice.html"
+  to = "/cp2100-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cp2100-notice"
+  to = "/cp2100-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/office-audit.html"
+  to = "/office-audit"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/office-audit"
+  to = "/office-audit.html"
+  status = 200
+
+[[redirects]]
+  from = "/field-audit.html"
+  to = "/field-audit"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/field-audit"
+  to = "/field-audit.html"
+  status = 200
+
+[[redirects]]
+  from = "/eitc-audit.html"
+  to = "/eitc-audit"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/eitc-audit"
+  to = "/eitc-audit.html"
+  status = 200
+
+[[redirects]]
+  from = "/schedule-c-business-expense-audit.html"
+  to = "/schedule-c-business-expense-audit"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/schedule-c-business-expense-audit"
+  to = "/schedule-c-business-expense-audit.html"
+  status = 200
+
+[[redirects]]
+  from = "/hobby-loss-audit.html"
+  to = "/hobby-loss-audit"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hobby-loss-audit"
+  to = "/hobby-loss-audit.html"
+  status = 200
+
+[[redirects]]
+  from = "/home-office-deduction-audit.html"
+  to = "/home-office-deduction-audit"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/home-office-deduction-audit"
+  to = "/home-office-deduction-audit.html"
+  status = 200
+
+[[redirects]]
+  from = "/vehicle-expense-audit.html"
+  to = "/vehicle-expense-audit"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/vehicle-expense-audit"
+  to = "/vehicle-expense-audit.html"
+  status = 200
+
+[[redirects]]
+  from = "/charitable-contribution-audit.html"
+  to = "/charitable-contribution-audit"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/charitable-contribution-audit"
+  to = "/charitable-contribution-audit.html"
+  status = 200
+
+[[redirects]]
+  from = "/crypto-and-1099-k-irs-inquiries.html"
+  to = "/crypto-and-1099-k-irs-inquiries"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crypto-and-1099-k-irs-inquiries"
+  to = "/crypto-and-1099-k-irs-inquiries.html"
+  status = 200
+
+[[redirects]]
+  from = "/unreported-income-irs-notice.html"
+  to = "/unreported-income-irs-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/unreported-income-irs-notice"
+  to = "/unreported-income-irs-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/cant-pay-irs-balance.html"
+  to = "/cant-pay-irs-balance"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cant-pay-irs-balance"
+  to = "/cant-pay-irs-balance.html"
+  status = 200
+
+[[redirects]]
+  from = "/missed-irs-deadline.html"
+  to = "/missed-irs-deadline"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/missed-irs-deadline"
+  to = "/missed-irs-deadline.html"
+  status = 200
+
+[[redirects]]
+  from = "/identity-theft-irs-notice.html"
+  to = "/identity-theft-irs-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/identity-theft-irs-notice"
+  to = "/identity-theft-irs-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/unfiled-tax-returns.html"
+  to = "/unfiled-tax-returns"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/unfiled-tax-returns"
+  to = "/unfiled-tax-returns.html"
+  status = 200
+
+[[redirects]]
+  from = "/bank-account-levy.html"
+  to = "/bank-account-levy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bank-account-levy"
+  to = "/bank-account-levy.html"
+  status = 200
+
+[[redirects]]
+  from = "/wage-levy-garnishment.html"
+  to = "/wage-levy-garnishment"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/wage-levy-garnishment"
+  to = "/wage-levy-garnishment.html"
+  status = 200
+
+[[redirects]]
+  from = "/federal-tax-lien-notice.html"
+  to = "/federal-tax-lien-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/federal-tax-lien-notice"
+  to = "/federal-tax-lien-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/innocent-spouse-relief.html"
+  to = "/innocent-spouse-relief"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/innocent-spouse-relief"
+  to = "/innocent-spouse-relief.html"
+  status = 200
+
+[[redirects]]
+  from = "/estimated-tax-penalty.html"
+  to = "/estimated-tax-penalty"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/estimated-tax-penalty"
+  to = "/estimated-tax-penalty.html"
+  status = 200
+
+[[redirects]]
+  from = "/respond-to-irs-notice-step-by-step.html"
+  to = "/respond-to-irs-notice-step-by-step"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/respond-to-irs-notice-step-by-step"
+  to = "/respond-to-irs-notice-step-by-step.html"
+  status = 200
+
+[[redirects]]
+  from = "/request-penalty-abatement.html"
+  to = "/request-penalty-abatement"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/request-penalty-abatement"
+  to = "/request-penalty-abatement.html"
+  status = 200
+
+[[redirects]]
+  from = "/appeal-irs-audit-results.html"
+  to = "/appeal-irs-audit-results"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/appeal-irs-audit-results"
+  to = "/appeal-irs-audit-results.html"
+  status = 200
+
+[[redirects]]
+  from = "/request-cdp-hearing.html"
+  to = "/request-cdp-hearing"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/request-cdp-hearing"
+  to = "/request-cdp-hearing.html"
+  status = 200
+
+[[redirects]]
+  from = "/set-up-irs-payment-plan.html"
+  to = "/set-up-irs-payment-plan"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/set-up-irs-payment-plan"
+  to = "/set-up-irs-payment-plan.html"
+  status = 200
+
+[[redirects]]
+  from = "/get-irs-tax-transcripts.html"
+  to = "/get-irs-tax-transcripts"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/get-irs-tax-transcripts"
+  to = "/get-irs-tax-transcripts.html"
+  status = 200
+
+[[redirects]]
+  from = "/cp2000-response-letter-sample.html"
+  to = "/cp2000-response-letter-sample"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cp2000-response-letter-sample"
+  to = "/cp2000-response-letter-sample.html"
+  status = 200
+
+[[redirects]]
+  from = "/audit-document-request-response-letter-sample.html"
+  to = "/audit-document-request-response-letter-sample"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/audit-document-request-response-letter-sample"
+  to = "/audit-document-request-response-letter-sample.html"
+  status = 200
+
+[[redirects]]
+  from = "/penalty-abatement-request-letter-sample.html"
+  to = "/penalty-abatement-request-letter-sample"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/penalty-abatement-request-letter-sample"
+  to = "/penalty-abatement-request-letter-sample.html"
+  status = 200
+
+[[redirects]]
+  from = "/reasonable-cause-statement-sample.html"
+  to = "/reasonable-cause-statement-sample"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/reasonable-cause-statement-sample"
+  to = "/reasonable-cause-statement-sample.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-appeal-request-letter-sample.html"
+  to = "/irs-appeal-request-letter-sample"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-appeal-request-letter-sample"
+  to = "/irs-appeal-request-letter-sample.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-notice-disagreement-letter-sample.html"
+  to = "/irs-notice-disagreement-letter-sample"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-notice-disagreement-letter-sample"
+  to = "/irs-notice-disagreement-letter-sample.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-taxpayer-bill-of-rights.html"
+  to = "/irs-taxpayer-bill-of-rights"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-taxpayer-bill-of-rights"
+  to = "/irs-taxpayer-bill-of-rights.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-notice-glossary.html"
+  to = "/irs-notice-glossary"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-notice-glossary"
+  to = "/irs-notice-glossary.html"
+  status = 200
+
+[[redirects]]
+  from = "/when-to-hire-cpa-enrolled-agent-tax-attorney.html"
+  to = "/when-to-hire-cpa-enrolled-agent-tax-attorney"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/when-to-hire-cpa-enrolled-agent-tax-attorney"
+  to = "/when-to-hire-cpa-enrolled-agent-tax-attorney.html"
+  status = 200
+
+[[redirects]]
+  from = "/form-2848-vs-form-8821.html"
+  to = "/form-2848-vs-form-8821"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/form-2848-vs-form-8821"
+  to = "/form-2848-vs-form-8821.html"
+  status = 200
+
+[[redirects]]
+  from = "/taxpayer-advocate-service-help.html"
+  to = "/taxpayer-advocate-service-help"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/taxpayer-advocate-service-help"
+  to = "/taxpayer-advocate-service-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-statute-of-limitations-assessment.html"
+  to = "/irs-statute-of-limitations-assessment"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-statute-of-limitations-assessment"
+  to = "/irs-statute-of-limitations-assessment.html"
+  status = 200
+
+[[redirects]]
+  from = "/irs-scam-or-real-notice.html"
+  to = "/irs-scam-or-real-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/irs-scam-or-real-notice"
+  to = "/irs-scam-or-real-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/california-state-tax-after-irs-notice.html"
+  to = "/california-state-tax-after-irs-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/california-state-tax-after-irs-notice"
+  to = "/california-state-tax-after-irs-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/new-york-state-tax-after-irs-notice.html"
+  to = "/new-york-state-tax-after-irs-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/new-york-state-tax-after-irs-notice"
+  to = "/new-york-state-tax-after-irs-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/texas-state-tax-after-irs-notice.html"
+  to = "/texas-state-tax-after-irs-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/texas-state-tax-after-irs-notice"
+  to = "/texas-state-tax-after-irs-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/florida-state-tax-after-irs-notice.html"
+  to = "/florida-state-tax-after-irs-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/florida-state-tax-after-irs-notice"
+  to = "/florida-state-tax-after-irs-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/illinois-state-tax-after-irs-notice.html"
+  to = "/illinois-state-tax-after-irs-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/illinois-state-tax-after-irs-notice"
+  to = "/illinois-state-tax-after-irs-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/pennsylvania-state-tax-after-irs-notice.html"
+  to = "/pennsylvania-state-tax-after-irs-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pennsylvania-state-tax-after-irs-notice"
+  to = "/pennsylvania-state-tax-after-irs-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/ohio-state-tax-after-irs-notice.html"
+  to = "/ohio-state-tax-after-irs-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ohio-state-tax-after-irs-notice"
+  to = "/ohio-state-tax-after-irs-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/georgia-state-tax-after-irs-notice.html"
+  to = "/georgia-state-tax-after-irs-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/georgia-state-tax-after-irs-notice"
+  to = "/georgia-state-tax-after-irs-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/north-carolina-state-tax-after-irs-notice.html"
+  to = "/north-carolina-state-tax-after-irs-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/north-carolina-state-tax-after-irs-notice"
+  to = "/north-carolina-state-tax-after-irs-notice.html"
+  status = 200
+
+[[redirects]]
+  from = "/new-jersey-state-tax-after-irs-notice.html"
+  to = "/new-jersey-state-tax-after-irs-notice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/new-jersey-state-tax-after-irs-notice"
+  to = "/new-jersey-state-tax-after-irs-notice.html"
+  status = 200

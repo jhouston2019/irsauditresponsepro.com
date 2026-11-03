@@ -1,0 +1,88 @@
+# IRS Audit Defense Pro
+
+> IRS Audit Defense Pro is software that helps people respond to IRS notices and audits by drafting a formal response letter. It is not a law firm, CPA firm, or enrolled agent and does not give legal or tax advice.
+
+The guides below explain common IRS notices, audit types, penalty and collection situations, and rights, using IRS and other primary government sources. Check your own notice for deadlines.
+
+## Hub
+- [All guides](https://irsauditdefensepro.com/guides)
+
+## IRS notices and letters
+- [You received a CP2000. Here is how to read it and reply](https://irsauditdefensepro.com/cp2000-notice): Got a CP2000? Learn what this proposed-change notice is, why it is not a bill or an audit, and how to agree or disagree by the date on your notice.
+- [CP3219A: your notice of deficiency and the deadline printed on it](https://irsauditdefensepro.com/cp3219a-notice-of-deficiency): A CP3219A is a notice of deficiency with a firm Tax Court deadline. See what it means, your choices, and why the date printed on it matters.
+- [CP11 notice: the IRS changed your return and your balance](https://irsauditdefensepro.com/cp11-notice): A CP11 says the IRS corrected your return and your balance due changed. See how to check the math, pay or set up a plan, or disagree in time.
+- [CP12 notice: the IRS changed your refund](https://irsauditdefensepro.com/cp12-notice): A CP12 means the IRS corrected your return and your refund is different. Learn how to check the change and how to disagree before the date on the notice.
+- [CP05 notice: why the IRS is holding your return for review](https://irsauditdefensepro.com/cp05-notice): A CP05 means the IRS needs more time to review your return. See what it checks, what to do if you filed, and what to do if you did not file it.
+- [CP75 and CP75A: the IRS wants proof for your credits](https://irsauditdefensepro.com/cp75-cp75a-notice): A CP75 or CP75A is a correspondence audit asking for proof of credits and dependents. See what the IRS holds, what to send, and what happens without it.
+- [CP87A: another return claimed the same dependent](https://irsauditdefensepro.com/cp87a-notice): A CP87A means another return used the same dependent SSN as yours. See how to compare SSNs, when no reply is needed, and when to file Form 1040-X.
+- [CP90 and CP297: what to do with a final notice of intent to levy](https://irsauditdefensepro.com/cp90-cp297-notice): Got a CP90 or CP297 from the IRS? See what the final notice of intent to levy means, how a Collection Due Process hearing request works, and what to do first.
+- [Understanding an LT11 or Letter 1058 notice](https://irsauditdefensepro.com/lt11-letter-1058-notice): Received an LT11 or Letter 1058? Learn what the final notice says about levy, your right to a hearing, and how to request one before the date on your letter.
+- [Letter 525 and Letter 950: what a 30-day letter asks of you](https://irsauditdefensepro.com/letter-525-letter-950-30-day-letter): Got an IRS Letter 525 or Letter 950 after an audit? See what a 30-day letter proposes, how to agree or request an appeal, and small case vs formal protest.
+- [What a CP14 notice means and what to do next](https://irsauditdefensepro.com/cp14-notice): A CP14 says you owe the IRS money. See what it states, how interest and the late-payment penalty work, and your options to pay, set up a plan or disagree.
+- [CP504: a serious collection notice and how to respond](https://irsauditdefensepro.com/cp504-notice): Received a CP504? See how the IRS describes it, how it fits with CP501 and CP503, why your notice matters, and what to do about an unpaid balance.
+- [Got a CP5071? How identity and return verification works](https://irsauditdefensepro.com/cp5071-notice): A CP5071 asks you to verify your identity and a tax return filed under your SSN or ITIN. See how verification works and what to do if you did not file.
+- [CP2100 and backup withholding: what payers and payees should know](https://irsauditdefensepro.com/cp2100-notice): A CP2100 or CP2100A goes to payers about name and TIN mismatches. Learn how backup withholding works and how a payee can stop it with a correct Form W-9.
+
+## Types of audits and examinations
+- [Correspondence audit: how an IRS audit by mail works](https://irsauditdefensepro.com/correspondence-audit): Got an IRS letter asking you to back up items on your return? Learn how an audit by mail works, what to send, and what happens if you miss the date.
+- [IRS office audit: what to expect at the interview](https://irsauditdefensepro.com/office-audit): An IRS office audit is an in-person interview at an IRS office. See how scheduling works, what to bring, and your right to consult a representative.
+- [IRS field audit: what happens when the auditor comes to you](https://irsauditdefensepro.com/field-audit): A field audit takes place at your home, business or representative's office. Learn how it starts, third-party contacts, and how to prepare your records.
+- [EITC audit: documenting the earned income credit on your return](https://irsauditdefensepro.com/eitc-audit): Received a CP75 or CP75D about the earned income credit? See what the IRS asks for, how dependents are tested, and what Form 8862 means for later years.
+- [Schedule C audit: supporting your business income and expenses](https://irsauditdefensepro.com/schedule-c-business-expense-audit): Self-employed and facing an IRS exam of Schedule C? See which records to keep, how to support expenses, and why income mismatches matter.
+- [Hobby loss audit: is your activity a business or a hobby?](https://irsauditdefensepro.com/hobby-loss-audit): The IRS may ask whether your side activity is a business or a hobby. See the nine factors in the regulation and the records that show a profit motive.
+- [Home office deduction audit: proving the space qualifies](https://irsauditdefensepro.com/home-office-deduction-audit): If the IRS questions your home office deduction, see the exclusive and regular use test, the simplified method, and the records that support your claim.
+- [Vehicle mileage audit: building records for a car deduction](https://irsauditdefensepro.com/vehicle-expense-audit): Questions about your car or mileage deduction? See why a written log matters, what to reconstruct, and how to present vehicle records in an IRS exam.
+- [Charitable contribution audit: acknowledgments and proof of gifts](https://irsauditdefensepro.com/charitable-contribution-audit): If the IRS questions your charitable deduction, see which acknowledgments, forms and appraisals Publication 526 describes and how to organize your proof.
+- [Crypto and Form 1099-K IRS inquiries: what the letter is asking](https://irsauditdefensepro.com/crypto-and-1099-k-irs-inquiries): Got an IRS letter about crypto or a Form 1099-K? See how the IRS treats digital assets, the Form 1040 question, and what records help you respond.
+- [Unreported income notice: how a mismatch happens and how to reply](https://irsauditdefensepro.com/unreported-income-irs-notice): An IRS notice about income you did not report often comes from a form mismatch. See how 1099-NEC and gig income cause it and what a response usually looks like.
+
+## Situations and problems
+- [What to do when you owe the IRS and can't pay it all](https://irsauditdefensepro.com/cant-pay-irs-balance): Owe the IRS more than you can pay right now? See how payment plans, a collection pause and an offer in compromise compare, and what keeps growing meanwhile.
+- [You missed an IRS response date: what to do next](https://irsauditdefensepro.com/missed-irs-deadline): Missed the date on an IRS notice? See what to do first, how late hearing requests and penalty relief work, and which deadlines are firm. Plain-language guide.
+- [An IRS notice about possible tax identity theft](https://irsauditdefensepro.com/identity-theft-irs-notice): Got an IRS notice that suggests someone used your SSN or ITIN? Learn what a CP5071 or CP01 means, when Form 14039 applies, and how an IP PIN helps.
+- [Behind on filing? Here is how past-due returns work](https://irsauditdefensepro.com/unfiled-tax-returns): Have unfiled tax years? See why the IRS says to file past-due returns now, what CP59 and CP515 notices mean, and how a substitute return changes things.
+- [If the IRS has levied your bank account](https://irsauditdefensepro.com/bank-account-levy): Learn how an IRS bank levy differs from a lien, when the IRS must release one, and how hearings and payment plans fit. Calm, step-by-step overview.
+- [Part of your paycheck is going to the IRS: what that means](https://irsauditdefensepro.com/wage-levy-garnishment): Your employer says the IRS is taking part of your paycheck? See how a wage levy works, what pay is protected, and how to ask for a release. Practical guide.
+- [You received notice of a federal tax lien](https://irsauditdefensepro.com/federal-tax-lien-notice): A federal tax lien is a legal claim on your property for unpaid tax. See how a lien hearing, release, withdrawal, discharge and subordination each work.
+- [Innocent spouse relief for a joint-return tax bill](https://irsauditdefensepro.com/innocent-spouse-relief): Learn how innocent spouse, separation of liability and equitable relief differ, how Form 8857 works, and why time limits depend on the type of relief.
+- [Why you were charged an underpayment penalty, and what to check](https://irsauditdefensepro.com/estimated-tax-penalty): Charged a penalty for not paying enough tax during the year? Learn how Form 2210 works, what safe harbor means and when the IRS may waive the penalty.
+
+## How-to guides
+- [How to respond to an IRS notice, step by step](https://irsauditdefensepro.com/respond-to-irs-notice-step-by-step): A calm, practical walkthrough for responding to any IRS notice: read it, check it is real, gather records, decide, send it with proof, and keep copies.
+- [How to request penalty abatement from the IRS](https://irsauditdefensepro.com/request-penalty-abatement): Learn how to ask the IRS to remove a penalty: check first-time relief, explain reasonable cause, use the notice phone number or Form 843, and appeal a denial.
+- [How to appeal the results of an IRS audit](https://irsauditdefensepro.com/appeal-irs-audit-results): Disagree with IRS audit results? Follow the steps: read your letter, pick a small case request or formal protest, prepare for Appeals, and know the next step.
+- [How to request a Collection Due Process hearing](https://irsauditdefensepro.com/request-cdp-hearing): Steps to request an IRS Collection Due Process hearing with Form 12153: find the notice deadline, give your reasons, attach what applies, and know what follows.
+- [How to set up an IRS payment plan](https://irsauditdefensepro.com/set-up-irs-payment-plan): How to set up an IRS payment plan: compare short-term and monthly options, apply online or with Form 9465, and know what keeps accruing if you default.
+- [How to get your IRS tax transcripts](https://irsauditdefensepro.com/get-irs-tax-transcripts): Find out which IRS transcript you need, how to order it online, by mail, by phone or with Form 4506-T, and how it differs from a copy of your return.
+
+## Sample response letters
+- [CP2000 response letter sample: when part of the proposed change is wrong](https://irsauditdefensepro.com/cp2000-response-letter-sample): A sample letter responding to an IRS CP2000 notice when part of the proposed change is wrong, with item-by-item explanations and an enclosures list to adapt.
+- [Cover letter for answering an IRS audit document request](https://irsauditdefensepro.com/audit-document-request-response-letter-sample): A sample cover letter for answering an IRS audit by mail: list copies enclosed, ask for confirmation of receipt, and offer a contact. Adapt the placeholders.
+- [Penalty abatement request letter sample (first-time relief)](https://irsauditdefensepro.com/penalty-abatement-request-letter-sample): A sample first-time penalty abatement letter: identify the penalty, state your compliance history, request relief, and list enclosures. Free to adapt.
+- [Reasonable cause statement sample: telling the story of what happened](https://irsauditdefensepro.com/reasonable-cause-statement-sample): A sample reasonable cause statement for an IRS penalty: timeline of events, ordinary care, steps you took to fix the problem, and documents to enclose.
+- [IRS appeal request letter sample: asking for an Appeals conference](https://irsauditdefensepro.com/irs-appeal-request-letter-sample): A sample letter disputing an IRS notice that proposes a change: identify the notice, list disputed items, enclose support, and ask for a written reply.
+- [Letter to the IRS disagreeing with a notice: a general template](https://irsauditdefensepro.com/irs-notice-disagreement-letter-sample): A general sample letter disputing an IRS notice that proposes a change: identify the notice, list disputed items, enclose support, and ask for a written reply.
+
+## Guides and rights
+- [The IRS Taxpayer Bill of Rights, in Plain English](https://irsauditdefensepro.com/irs-taxpayer-bill-of-rights): The ten Taxpayer Bill of Rights in plain words, plus how they show up when you answer an IRS audit or collection letter, and what they do not do.
+- [IRS Notice Glossary: What the Terms Actually Mean](https://irsauditdefensepro.com/irs-notice-glossary): Plain-English definitions of IRS terms such as assessment, notice of deficiency, lien, levy, abatement, reasonable cause, CDP hearing and transcript.
+- [Handling an IRS Notice Yourself or Hiring a Professional](https://irsauditdefensepro.com/when-to-hire-cpa-enrolled-agent-tax-attorney): An even-handed look at handling an IRS notice yourself with software versus hiring a CPA, enrolled agent or tax attorney, and who can represent you.
+- [Form 2848 vs Form 8821: Represent or Just View?](https://irsauditdefensepro.com/form-2848-vs-form-8821): Form 2848 lets someone represent you before the IRS; Form 8821 only lets them see your tax information. Compare scope, who can be named and common snags.
+- [The Taxpayer Advocate Service: Help When an IRS Problem Stalls](https://irsauditdefensepro.com/taxpayer-advocate-service-help): What the Taxpayer Advocate Service is, who may ask for its help, how Form 911 works, and what the Advocate's office can and cannot do for an IRS problem.
+- [How Long Does the IRS Have to Assess Additional Tax?](https://irsauditdefensepro.com/irs-statute-of-limitations-assessment): How long the IRS generally has to assess additional tax: three years from filing, six in some cases, no limit for fraud or unfiled returns, and what to keep.
+- [Is This IRS Notice Real? How to Tell Before You Respond](https://irsauditdefensepro.com/irs-scam-or-real-notice): How the IRS usually contacts you, the warning signs of a scam, how to confirm a letter through your Online Account, and how to report a fake message.
+
+## State tax follow-ups
+- [California Taxpayers: Your IRS Notice and the Franchise Tax Board](https://irsauditdefensepro.com/california-state-tax-after-irs-notice): Got an IRS notice and live in California? See how your federal response relates to the Franchise Tax Board, and what to check before replying.
+- [An IRS Notice in New York: Keeping Federal and State Mail Straight](https://irsauditdefensepro.com/new-york-state-tax-after-irs-notice): Received an IRS notice in New York? Learn how it differs from mail from the Department of Taxation and Finance and what to verify first.
+- [Texas and Your IRS Notice: Which Agency Is Writing?](https://irsauditdefensepro.com/texas-state-tax-after-irs-notice): Have an IRS notice and live in Texas? Learn how the federal notice differs from mail from the Texas Comptroller of Public Accounts.
+- [Florida: When the IRS Writes and the State Might Too](https://irsauditdefensepro.com/florida-state-tax-after-irs-notice): IRS audit or notice in Florida? See how a federal letter differs from contact by the Florida Department of Revenue and what to verify.
+- [Illinois and Your IRS Notice: Two Agencies, Two Letters](https://irsauditdefensepro.com/illinois-state-tax-after-irs-notice): Received an IRS notice in Illinois? Learn how it relates to the Illinois Department of Revenue and what to confirm before you respond.
+- [Pennsylvania: Your IRS Notice and the Department of Revenue](https://irsauditdefensepro.com/pennsylvania-state-tax-after-irs-notice): Pennsylvania resident with an IRS notice? Understand how it relates to the state Department of Revenue and what to verify first.
+- [Ohio and the IRS: Reading Both Letters Carefully](https://irsauditdefensepro.com/ohio-state-tax-after-irs-notice): Ohio taxpayer with an IRS notice? See how it differs from Ohio Department of Taxation mail and how to keep both straight.
+- [Georgia: What an IRS Notice Means for Your State Contact](https://irsauditdefensepro.com/georgia-state-tax-after-irs-notice): Georgia taxpayer holding an IRS notice? Learn how it relates to the Georgia Department of Revenue and why to check both agencies.
+- [North Carolina: Sorting IRS Mail From NCDOR Mail](https://irsauditdefensepro.com/north-carolina-state-tax-after-irs-notice): North Carolina taxpayer with an IRS notice? See how it differs from NC Department of Revenue mail and how to keep records organized.
+- [New Jersey and the IRS: Handling a Balance Notice and State Mail](https://irsauditdefensepro.com/new-jersey-state-tax-after-irs-notice): New Jersey taxpayer with an IRS notice? Learn how it relates to the NJ Division of Taxation and what to confirm before you reply.
+
+## Optional
+- [Start a response letter](https://irsauditdefensepro.com/upload)
